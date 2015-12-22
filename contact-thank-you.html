@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<section class='section-wrapper contact-page-w'>
+  <div class='container'>
+    <h3 class='section-header'>Contact Page</h3>
+    <div class='row'>
+      <div class='span4'>
+        <div class='blog-side-text-block widget-filled widget-yellow'>
+          <h3>Contact Infromation</h3>
+          <ul class="unstyled big-iconed-tips">
+            <li>
+              <i class='icon-map-marker'></i>
+              Address: 803 Helston Rd, Bloomfield Hills, MI, 48304
+            </li>
+            <li>
+              <i class='icon-phone-sign'></i>
+              Phone: (248) 227-9573
+            </li>
+            <li>
+              <i class='icon-envelope-alt'></i>
+              Email: Jennefer@JenneferMitchell.com
+            </li>
+            <li>
+              <i class='icon-globe'></i>
+              Website: www.JenneferMitchell.com
+            </li>
+            <li>
+              <i class='icon-linkedin-sign'></i>
+              LinkedIn: <a href="http://www.linkedin.com/pub/jennefer-mitchell/1/48b/83a/">Jennefer Mitchell</a>
+            </li>
+          </ul>
+          <p>Contact me at the above or submit a question and I'll get back to you directly.  I'm excited to help you on your journey!</p>
+        </div>
+      </div>
+      <div class='span8'>
+        <div class="white-card extra-padding">
+        <form class='form-transparent no-margin-bottom' id='form-add-comment' method="POST" name="contactform" action="assets/php/contact-form-submission.php">
+          <fieldset>
+            <div class='row-fluid'>
+              <div class='span12'>
+                <div class="alert alert-success">We'll Be In Touch Soon!</div>
+                <legend>Complete the form to contact us</legend>
+                <div class='controls controls-row'>
+                  <input id="name" name="contact_name" class='search-input span12' placeholder='Your Name' type='text'>
+                </div>
+                <div class='controls controls-row'>
+                  <input id="email" name="contact_email" class='search-input span12' placeholder='YourEmail@email.com' type='text'>
+                </div>
+                <div class='controls controls-row'>
+                  <input id="phone" name="contact_phone" class='search-input span12' placeholder='(555) 555-5555' type='text'>
+                </div>
+                <div class='controls controls-row'>
+                  <textarea id="message" name="contact_message" class='span12' placeholder='Type your message here' rows='6'></textarea>
+                </div>
+                <input type="hidden" name="save" value="contact">
+                <div class='form-actions'>
+                  <button type="submit" class='btn btn-small'>Submit Message</button>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='span12'>
+        <div id="map-canvas"/>
+        <!-- <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Madison+Square+Garden,+Penn+Plaza,+New+York,+NY&amp;aq=0&amp;oq=madisson+s&amp;sll=40.697488,-73.979681&amp;sspn=0.603884,1.355438&amp;ie=UTF8&amp;hq=Madison+Square+Garden,&amp;hnear=Penn+Plaza,+New+York&amp;t=m&amp;ll=40.750248,-73.992362&amp;spn=0.005689,0.002124&amp;z=16&amp;output=embed"></iframe> -->
+      </div>
+    </div>
+  </div>
+</section>
